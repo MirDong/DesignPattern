@@ -15,4 +15,4 @@ PS:**<u>设计模式是解决问题的思想，重要的是思想。写代码时
 
 设计模式六大原则：
 
-![设计原则](.\image\design_pattern_struct.jpg)
+![设计原则](./image/design_pattern_struct.jpg)
