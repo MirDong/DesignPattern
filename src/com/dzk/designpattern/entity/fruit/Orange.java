@@ -1,5 +1,6 @@
 package com.dzk.designpattern.entity.fruit;
 
+import com.dzk.designpattern.action.visit.Visit;
 import com.dzk.designpattern.entity.Bag;
 import com.dzk.designpattern.entity.Fruit;
 
@@ -33,5 +34,13 @@ public class Orange implements Fruit {
         if (null != bag){
             bag.pack();
         }
+    }
+
+    @Override
+    public int accept(Visit visit) {
+        if (null != visit){
+            return visit.sell(this);
+        }
+        return 0;
     }
 }

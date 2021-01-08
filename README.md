@@ -13,6 +13,10 @@ PS:**<u>设计模式是解决问题的思想，重要的是思想。写代码时
 
 
 
-设计模式六大原则：
+### 设计模式六大原则:
 
 ![设计原则](./image/design_pattern_struct.jpg)
+
+### 设计结构:
+
+![逻辑结构](http://upload-images.jianshu.io/upload_images/7802425-5d6b679ecdac9f47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
